@@ -44,6 +44,8 @@ import           Data.List
 import           Data.Sequence
                  (fromList)
 import qualified Data.Text                       as T
+import           Data.Text.Encoding
+                 (encodeUtf8)
 import           Network.HTTP.Media
                  (MediaType, matches, parseAccept)
 import qualified Network.HTTP.Media as Media
